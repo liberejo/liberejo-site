@@ -3,7 +3,36 @@ body {
 }
 
 a {
-	color: #74BA7D;
+	color: #95B584;
+}
+
+.projectLogo {
+	padding-top: 1em!important;
+	padding-bottom: 1em!important;
+	justify-content: center!important;
+	position: relative!important;
+	height: 10em;
+}
+
+.homeContainer {
+	background-color: #2A3940;
+}
+
+.homeContainer .projectTitle {
+	color: rgb(249, 249, 249);
+}
+
+.button {
+	border-color: #96B584;
+	text-transform: none;
+}
+
+.button:not(:hover) {
+	color: #96B584;
+}
+
+.button:hover {
+	background-color: #95B584;
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
