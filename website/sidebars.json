@@ -3,6 +3,6 @@
     "Usage": ["usage/getting-started"]
   },
   "develop": {
-    "Developer Documentation": ["develop/basics"]
+    "Developer Documentation": ["develop/basics", "develop/setting-up-env"]
   }
 }

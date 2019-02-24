@@ -1,21 +1,42 @@
 body {
-	background-color: rgb(249, 249, 249);
+	background-color: #2A3940;
+	color: rgb(249, 249, 249);
 }
 
 a {
 	color: #95B584;
 }
 
+a:hover {
+	color: #A7CF8F;
+}
+
+.fixedHeaderContainer header .headerTitleWithLogo:hover {
+	color: #FFF!important;
+}
+
+.toc .toggleNav .navGroup .navGroupCategoryTitle {
+	color: rgb(249, 249, 249);
+	font-weight: 600;
+}
+
+.toc .toggleNav ul li.navListItemActive a {
+	color: rgb(200, 200, 200);
+}
+
+.toc .toggleNav ul li a {
+	color: rgb(200, 200, 200);
+}
+
+.toc .toggleNav ul li a:hover {
+	color: #FFF;
+}
 .projectLogo {
 	padding-top: 1em!important;
 	padding-bottom: 1em!important;
 	justify-content: center!important;
 	position: relative!important;
 	height: 10em;
-}
-
-.homeContainer {
-	background-color: #2A3940;
 }
 
 .homeContainer .projectTitle {
@@ -25,6 +46,9 @@ a {
 .button {
 	border-color: #96B584;
 	text-transform: none;
+	font-weight: 600;
+	border-width: 2px;
+	/* border-width: 10px; */
 }
 
 .button:not(:hover) {
@@ -33,6 +57,10 @@ a {
 
 .button:hover {
 	background-color: #95B584;
+}
+
+.blogContainer .postHeader .post-authorName {
+	color: rgb(249, 249, 249);
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
