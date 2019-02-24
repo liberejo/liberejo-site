@@ -2,7 +2,7 @@
   "usage": {
     "Usage": ["usage/getting-started"]
   },
-  "docs": {
-    "Documentation": ["docs/basics"]
+  "develop": {
+    "Developer Documentation": ["develop/basics"]
   }
 }
