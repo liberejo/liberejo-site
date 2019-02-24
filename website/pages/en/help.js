@@ -21,19 +21,17 @@ function Help(props) {
 
   const supportLinks = [
     {
-      content: `Learn more using the [documentation on this site.](${docUrl(
-        'doc1.html',
-      )})`,
-      title: 'Browse Docs',
+		title: 'Documentation',
+		content: `Browse the [usage documentation](${docUrl('usage/getting-started',)}).`,
     },
     {
-      content: 'Ask questions about the documentation and project',
-      title: 'Join the community',
+		title: 'Submit an issue',
+    	content: `If you encounter an issue in the game or the site, feel free to [submit an issue](${props.config.repoUrl}).`
     },
     {
-      content: "Find out what's new with this project",
-      title: 'Stay up to date',
-    },
+		title: 'Join the community',
+    	content: `Ask questions about the project on our [Reddit](${props.config.redditUrl}) or chat on [Discord](${props.config.discordUrl}).`
+    }
   ];
 
   return (

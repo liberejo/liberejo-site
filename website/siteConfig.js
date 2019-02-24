@@ -34,14 +34,16 @@ const siteConfig = {
   projectName: 'liberejo-site',
   organizationName: 'liberejo',
   repoUrl: "https://github.com/liberejo/liberejo",
+  redditUrl: "https://reddit.com/r/liberejo",
+  discordUrl: "https://discordapp.com",
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
+    {doc: 'usage/getting-started', label: 'Usage'},
+    {doc: 'docs/basics', label: 'Develop'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
   ],

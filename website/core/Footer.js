@@ -53,12 +53,12 @@ class Footer extends React.Component {
               Mods
             </a>
             <a
-              href="https://reddit.com/r/liberejo"
+              href={this.props.config.redditUrl}
               target="_blank"
               rel="noreferrer noopener">
 			  Reddit
             </a>
-            <a href="https://discordapp.com/">Project Chat</a>
+            <a href={this.props.config.discordUrl}>Discord</a>
           </div>
           <div>
             <h5>More</h5>
