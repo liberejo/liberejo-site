@@ -23,8 +23,9 @@
 const siteConfig = {
   title: 'Liberejo', // Title for your website.
   tagline: 'The multiplayer sandbox game designed for modding.',
-  url: 'http://liberejo.org', // Your website URL
+  url: 'https://liberejo.org', // Your website URL
   baseUrl: '/', // Base URL for your project */
+  cname: 'liberejo.org',
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
