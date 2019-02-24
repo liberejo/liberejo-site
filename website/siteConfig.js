@@ -9,21 +9,21 @@
 // site configuration options.
 
 // List of projects/orgs using your project for the users page.
-const users = [
-  {
-    caption: 'User1',
-    // You will need to prepend the image path with your baseUrl
-    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/img/docusaurus.svg',
-    infoLink: 'https://www.facebook.com',
-    pinned: true,
-  },
-];
+// const users = [
+//   {
+//     caption: 'User1',
+//     // You will need to prepend the image path with your baseUrl
+//     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+//     image: '/img/docusaurus.svg',
+//     infoLink: 'https://www.facebook.com',
+//     pinned: true,
+//   },
+// ];
 
 const siteConfig = {
   title: 'Liberejo', // Title for your website.
   tagline: 'The multiplayer sandbox game designed for modding.',
-  url: 'https://liberejo.org', // Your website URL
+  url: 'http://liberejo.org', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -45,17 +45,17 @@ const siteConfig = {
   ],
 
   // If you have users set above, you add it here:
-  users,
+  // users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
+  headerIcon: 'img/logo.svg',
+  footerIcon: 'img/logo.svg',
   favicon: 'img/favicon.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#2E8555',
-    secondaryColor: '#205C3B',
+    primaryColor: '#3F5255',
+    secondaryColor: '#2F3540',
   },
 
   /* Custom fonts for website */
