@@ -3,6 +3,8 @@
     "Usage": ["usage/getting-started"]
   },
   "develop": {
-    "Developer Documentation": ["develop/basics", "develop/setting-up-env"]
+	"Developer Home": ["develop/develop"],
+    "Modding": ["develop/modding/basics", "develop/mod/env-setup"],
+	"Contributing": ["develop/contributing/contribute", "develop/contributing/conventions"]
   }
 }
